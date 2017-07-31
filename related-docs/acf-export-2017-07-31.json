@@ -1,0 +1,44 @@
+[
+    {
+        "key": "group_597f7a149c0cb",
+        "title": "Players Meta",
+        "fields": [
+            {
+                "key": "field_597f7a3fc589a",
+                "label": "Twitter ID",
+                "name": "twitter_id",
+                "type": "text",
+                "instructions": "Find it at <a href=\"http:\/\/gettwitterid.com\/\" target=\"_blank\">http:\/\/gettwitterid.com\/<\/a>",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "players"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    }
+]
