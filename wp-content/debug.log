@@ -1,1 +1,5 @@
 [31-Jul-2017 18:10:21 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"192.168.50.0","locale":"en_US","timezone":"America\/Chicago"}},"response_code":200,"response_body":{"location":{"ip":"24.209.116.169"},"events":"5 events trimmed."}}
+[31-Jul-2017 19:42:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php on line 29
+[31-Jul-2017 19:49:08 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php on line 83
+[31-Jul-2017 19:49:09 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php on line 83
+[31-Jul-2017 19:49:15 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php on line 83
