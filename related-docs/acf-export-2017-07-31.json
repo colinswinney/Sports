@@ -4,6 +4,25 @@
         "title": "Players Meta",
         "fields": [
             {
+                "key": "field_5980e2f0bfa4c",
+                "label": "Twitter User Name",
+                "name": "twitter_user_name",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
                 "key": "field_597f7a3fc589a",
                 "label": "Twitter ID",
                 "name": "twitter_id",
