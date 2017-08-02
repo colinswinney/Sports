@@ -79,7 +79,8 @@ function register_player_acf_fields() {
 function player_acf_field( $object, $field_name, $request ) {
 
   $id = $object['id'];
+  $twitter_user_name = get_field('twitter_user_name', $id );
   $twitter_id = get_field('twitter_id', $id );
-  return array('twitter_id' => $twitter_id);
+  return array('twitter_user_name' => $twitter_user_name, 'twitter_id' => $twitter_id);
 }
 add_action( 'rest_api_init',  'register_player_acf_fields' );
