@@ -4,3 +4,99 @@
 [31-Jul-2017 19:49:09 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php on line 83
 [31-Jul-2017 19:49:15 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php on line 83
 [01-Aug-2017 20:20:22 UTC] WP_Community_Events::maybe_log_events_response: Valid response received. Details: {"api_url":"https:\/\/api.wordpress.org\/events\/1.0\/","request_args":{"body":{"number":5,"ip":"192.168.50.0","locale":"en_US","timezone":"America\/Chicago"}},"response_code":200,"response_body":{"location":{"ip":"173.89.42.218"},"events":"5 events trimmed."}}
+[03-Aug-2017 18:32:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function register_route() on null in /srv/www/local.sports.dev/htdocs/wp-includes/rest-api.php:77
+Stack trace:
+#0 /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php(94): register_rest_route('players-posts/v...', '/get-all-post-i...', Array)
+#1 /srv/www/local.sports.dev/htdocs/wp-settings.php(303): include_once('/srv/www/local....')
+#2 /srv/www/local.sports.dev/htdocs/wp-config.php(86): require_once('/srv/www/local....')
+#3 /srv/www/local.sports.dev/htdocs/wp-load.php(37): require_once('/srv/www/local....')
+#4 /srv/www/local.sports.dev/htdocs/wp-blog-header.php(13): require_once('/srv/www/local....')
+#5 /srv/www/local.sports.dev/htdocs/index.php(17): require('/srv/www/local....')
+#6 {main}
+  thrown in /srv/www/local.sports.dev/htdocs/wp-includes/rest-api.php on line 77
+[03-Aug-2017 18:33:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function register_route() on null in /srv/www/local.sports.dev/htdocs/wp-includes/rest-api.php:77
+Stack trace:
+#0 /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php(94): register_rest_route('players-posts/v...', '/get-all-post-i...', Array)
+#1 /srv/www/local.sports.dev/htdocs/wp-settings.php(303): include_once('/srv/www/local....')
+#2 /srv/www/local.sports.dev/htdocs/wp-config.php(86): require_once('/srv/www/local....')
+#3 /srv/www/local.sports.dev/htdocs/wp-load.php(37): require_once('/srv/www/local....')
+#4 /srv/www/local.sports.dev/htdocs/wp-blog-header.php(13): require_once('/srv/www/local....')
+#5 /srv/www/local.sports.dev/htdocs/index.php(17): require('/srv/www/local....')
+#6 {main}
+  thrown in /srv/www/local.sports.dev/htdocs/wp-includes/rest-api.php on line 77
+[03-Aug-2017 18:33:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function register_route() on null in /srv/www/local.sports.dev/htdocs/wp-includes/rest-api.php:77
+Stack trace:
+#0 /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php(94): register_rest_route('players-posts/v...', '/get-all-post-i...', Array)
+#1 /srv/www/local.sports.dev/htdocs/wp-settings.php(303): include_once('/srv/www/local....')
+#2 /srv/www/local.sports.dev/htdocs/wp-config.php(86): require_once('/srv/www/local....')
+#3 /srv/www/local.sports.dev/htdocs/wp-load.php(37): require_once('/srv/www/local....')
+#4 /srv/www/local.sports.dev/htdocs/wp-blog-header.php(13): require_once('/srv/www/local....')
+#5 /srv/www/local.sports.dev/htdocs/index.php(17): require('/srv/www/local....')
+#6 {main}
+  thrown in /srv/www/local.sports.dev/htdocs/wp-includes/rest-api.php on line 77
+[03-Aug-2017 18:35:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function register_route() on null in /srv/www/local.sports.dev/htdocs/wp-includes/rest-api.php:77
+Stack trace:
+#0 /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php(94): register_rest_route('players-posts/v...', '/get-all-post-i...', Array)
+#1 /srv/www/local.sports.dev/htdocs/wp-settings.php(303): include_once('/srv/www/local....')
+#2 /srv/www/local.sports.dev/htdocs/wp-config.php(86): require_once('/srv/www/local....')
+#3 /srv/www/local.sports.dev/htdocs/wp-load.php(37): require_once('/srv/www/local....')
+#4 /srv/www/local.sports.dev/htdocs/wp-blog-header.php(13): require_once('/srv/www/local....')
+#5 /srv/www/local.sports.dev/htdocs/index.php(17): require('/srv/www/local....')
+#6 {main}
+  thrown in /srv/www/local.sports.dev/htdocs/wp-includes/rest-api.php on line 77
+[03-Aug-2017 18:35:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function register_route() on null in /srv/www/local.sports.dev/htdocs/wp-includes/rest-api.php:77
+Stack trace:
+#0 /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php(94): register_rest_route('players-posts/v...', '/get-all-post-i...', Array)
+#1 /srv/www/local.sports.dev/htdocs/wp-settings.php(303): include_once('/srv/www/local....')
+#2 /srv/www/local.sports.dev/htdocs/wp-config.php(86): require_once('/srv/www/local....')
+#3 /srv/www/local.sports.dev/htdocs/wp-load.php(37): require_once('/srv/www/local....')
+#4 /srv/www/local.sports.dev/htdocs/wp-blog-header.php(13): require_once('/srv/www/local....')
+#5 /srv/www/local.sports.dev/htdocs/index.php(17): require('/srv/www/local....')
+#6 {main}
+  thrown in /srv/www/local.sports.dev/htdocs/wp-includes/rest-api.php on line 77
+[03-Aug-2017 18:37:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_api_field() in /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php:102
+Stack trace:
+#0 /srv/www/local.sports.dev/htdocs/wp-includes/class-wp-hook.php(298): dt_register_api_hooks(Object(WP_REST_Server))
+#1 /srv/www/local.sports.dev/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /srv/www/local.sports.dev/htdocs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /srv/www/local.sports.dev/htdocs/wp-includes/rest-api.php(434): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /srv/www/local.sports.dev/htdocs/wp-includes/rest-api.php(264): rest_get_server()
+#5 /srv/www/local.sports.dev/htdocs/wp-includes/class-wp-hook.php(298): rest_api_loaded(Object(WP))
+#6 /srv/www/local.sports.dev/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#7 /srv/www/local.sports.dev/htdocs/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#8 /srv/www/local.sports.dev/htdo in /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php on line 102
+[03-Aug-2017 18:37:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_api_field() in /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php:102
+Stack trace:
+#0 /srv/www/local.sports.dev/htdocs/wp-includes/class-wp-hook.php(298): dt_register_api_hooks(Object(WP_REST_Server))
+#1 /srv/www/local.sports.dev/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /srv/www/local.sports.dev/htdocs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /srv/www/local.sports.dev/htdocs/wp-includes/rest-api.php(434): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /srv/www/local.sports.dev/htdocs/wp-includes/rest-api.php(264): rest_get_server()
+#5 /srv/www/local.sports.dev/htdocs/wp-includes/class-wp-hook.php(298): rest_api_loaded(Object(WP))
+#6 /srv/www/local.sports.dev/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#7 /srv/www/local.sports.dev/htdocs/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#8 /srv/www/local.sports.dev/htdo in /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php on line 102
+[03-Aug-2017 18:37:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_api_field() in /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php:102
+Stack trace:
+#0 /srv/www/local.sports.dev/htdocs/wp-includes/class-wp-hook.php(298): dt_register_api_hooks(Object(WP_REST_Server))
+#1 /srv/www/local.sports.dev/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /srv/www/local.sports.dev/htdocs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /srv/www/local.sports.dev/htdocs/wp-includes/rest-api.php(434): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /srv/www/local.sports.dev/htdocs/wp-includes/rest-api.php(264): rest_get_server()
+#5 /srv/www/local.sports.dev/htdocs/wp-includes/class-wp-hook.php(298): rest_api_loaded(Object(WP))
+#6 /srv/www/local.sports.dev/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#7 /srv/www/local.sports.dev/htdocs/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#8 /srv/www/local.sports.dev/htdo in /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php on line 102
+[03-Aug-2017 18:37:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function register_api_field() in /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php:102
+Stack trace:
+#0 /srv/www/local.sports.dev/htdocs/wp-includes/class-wp-hook.php(298): dt_register_api_hooks(Object(WP_REST_Server))
+#1 /srv/www/local.sports.dev/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
+#2 /srv/www/local.sports.dev/htdocs/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /srv/www/local.sports.dev/htdocs/wp-includes/rest-api.php(434): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /srv/www/local.sports.dev/htdocs/wp-includes/rest-api.php(264): rest_get_server()
+#5 /srv/www/local.sports.dev/htdocs/wp-includes/class-wp-hook.php(298): rest_api_loaded(Object(WP))
+#6 /srv/www/local.sports.dev/htdocs/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters('', Array)
+#7 /srv/www/local.sports.dev/htdocs/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#8 /srv/www/local.sports.dev/htdo in /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php on line 102
+[03-Aug-2017 18:45:38 UTC] PHP Notice:  Trying to get property of non-object in /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php on line 114
+[03-Aug-2017 18:45:38 UTC] PHP Notice:  Trying to get property of non-object in /srv/www/local.sports.dev/htdocs/wp-content/plugins/players-rest-api/players-rest-api.php on line 114
