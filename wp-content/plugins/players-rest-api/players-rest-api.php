@@ -9,7 +9,63 @@ Author URI:http://colinswinney.com
 */
 
 
+
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
+// Create new endpoint to grab all players
+function cr_everything_register_api_hooks() {
+  register_rest_route( 'baseballtweets/v1', '/get-everything/', array(
+    'methods' => 'GET',
+    'callback' => 'cr_get_everything',
+  ) );
+}
+// Return all post IDs
+function cr_get_everything() {
+  $all_posts = get_posts( array(
+    'numberposts' => -1,
+    'post_type'   => 'post'
+  ) );
+
+  $all_pages = get_posts( array(
+    'numberposts' => -1,
+    'post_type'   => 'page'
+  ) );
+
+  $all_players = get_posts( array(
+    'numberposts' => -1,
+    'post_type'   => 'players'
+  ) );
+
+  $teams = get_terms( 'teams', array(
+    'hide_empty' => false,
+  ));
+  $team_info = array();
+  foreach ( $teams as $team ) {
+      $team_info[] = $team;
+  }
+
+  $my_menu = wp_get_nav_menu_items('Main Menu');
+
+  foreach ( $all_players as $player ) {
+      $player_info[] = $player;
+  }
+
+  return array('cr_posts' => $all_posts, 'cr_pages' => $all_pages, 'cr_players' => $player_info, 'cr_menu' => $my_menu, 'cr_teams' => $team_info);
+}
+add_action( 'rest_api_init', 'cr_everything_register_api_hooks' );
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // add Players category info to rest api
@@ -91,7 +147,7 @@ add_action( 'rest_api_init',  'register_player_acf_fields' );
 
 
 
-
+// Create new endpoint to grab all players
 function player_register_api_hooks() {
   register_rest_route( 'players-cpt/v1', '/get-all-players/', array(
     'methods' => 'GET',
